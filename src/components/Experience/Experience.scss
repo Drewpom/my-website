@@ -1,0 +1,193 @@
+@import "../variables.scss";
+
+.work-section {
+
+	.heading {
+		padding-bottom: 4px;
+		border-bottom: 2px solid #fff;
+		margin-bottom: 10px;
+		.collapse-btn {
+			float: right;
+			background: $right-most;
+			color: #fff;
+			font-weight: 700;
+			font-size: 18px;
+			line-height: 18px;
+			text-align: center;
+			&[aria-expanded="false"]:after {
+				content: '+';
+			}
+			&[aria-expanded="true"]:after {
+				content: '-';
+			}
+		}
+	}
+
+	.entry {
+		margin-bottom: 30px;
+
+		.thumbnail {
+		    display: table;
+		    width: 100%;
+			min-height: 130px;
+			margin-bottom: 0;
+			.vertical-center {
+				display: table-cell;
+				vertical-align: middle;
+			}
+		}
+
+		&-title {
+			color: $left-most;
+			margin: 10px 0 3px;
+			font-size: 2rem;
+			a:link, a:visited {
+				color: $left-most;
+			}
+		}
+
+		&-position {
+			font-size: 1.6rem;
+			margin: 0 0 3px 0;
+		}
+
+		&-time {
+			margin: 0 0 5px 0;
+			color: #999;
+			font-size: 1.2rem;
+		}
+
+		&-img {
+			display: block;
+			margin: 0 auto;
+			opacity: 0.5;
+			max-width: 100%;
+			@include css-animate(all, $animation-speeds);
+			&:hover {
+				opacity: 1;
+			}
+		}
+
+		&-row {
+			margin: 5px 0;
+		}
+
+		&-label {
+			display: block;
+			// color: lighten($dark-gray, 5%);
+			color: $left-most;
+			font-size: 1.2rem;
+			text-transform: uppercase;
+			&:after {
+				content: ': ';
+			}
+		}
+
+		&-points {
+			padding-left: 20px;
+			font-size: 1.4rem;
+			line-height: 2.2rem;
+		}
+
+	}
+
+	.more-entries-btn {
+		display: block;
+    width: 100%;
+		font-size: 1.5rem;
+		text-transform: uppercase;
+		color: $right-most;
+		background: #fff;
+		border: 1px solid $right-most;
+		&:active, &:hover, &:focus, &:active:focus {
+			background: $right-most;
+			color: #fff;
+		}
+	}
+}
+
+.technology-box {
+	margin: 2px;
+	color: #fff;
+	padding: 2px 3px;
+	text-transform: uppercase;
+	display: inline-block;
+	opacity: 0.8;
+
+	&:hover, &:visited {
+		color: #fff;
+		text-decoration: none;
+	}
+
+	&:hover, &:focus {
+		opacity: 1;
+	}
+
+	&-parse {
+		background: #166d9a;
+	}
+	&-java {
+		background: #ed3336;
+	}
+	&-postgres {
+		background: #345f92;
+	}
+	&-sass {
+		background: #cd6799;
+	}
+	&-less {
+		background: #294d7f;
+	}
+	&-drupal {
+		background: #0272ba;
+	}
+	&-vagrant {
+		background: #50b7fc;
+	}
+	&-xcode {
+		background: #1f8ef7;
+	}
+	&-bootstrap {
+		background: #53264d;
+	}
+	&-aws {
+		background: #f8b71d;
+	}
+	&-nodejs {
+		background: #7ebe43;
+	}
+	&-django {
+		background: #51be95;
+	}
+	&-gulp {
+		background: #ea4a4a;
+	}
+	&-flask {
+		background: #676767;
+	}
+	&-elasticsearch {
+		background: #31bead;
+	}
+	&-mysql {
+		background: #e7912c;
+	}
+	&-racket {
+		background: #00008b;
+	}
+	&-python {
+		background: #3b719f;
+	}
+	&-php {
+		background: #7879b9;
+	}
+	&-swift {
+		background: #fe963f;
+	}
+
+	&-objective-c {
+		background: #811585;
+	}
+	&-angular {
+		background: red;
+	}
+}

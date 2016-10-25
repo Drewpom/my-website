@@ -1,0 +1,34 @@
+
+@import "~bootstrap-sass/assets/stylesheets/bootstrap/_variables.scss";
+
+$left-most: #0088B2;
+$left: #19C8FF;
+$primary: #00C2FF;
+$right: #19FF9F;
+$right-most: #00B268;
+
+$light-gray: #dcd;
+$gray: #999;
+$dark-gray: #777;
+
+$pale-green: #77ffc6;
+
+$highlight-color: $right-most;
+
+$brand-primary:         $primary; // #337ab7
+$brand-success:         $left-most;
+$brand-info:            $left;
+$brand-warning:         $left;
+$brand-danger:          $right-most;
+
+$border-style: 2px solid lighten($light-gray, 10%);
+$animation-speeds: 0.8s;
+$padding-desktop: 20px;
+
+@mixin css-animate($prop, $speed) {
+	-webkit-transition: $prop $speed;
+	-moz-transition: $prop $speed;
+	-ms-transition: $prop $speed;
+	-o-transition: $prop $speed;
+	transition: $prop $speed;
+}

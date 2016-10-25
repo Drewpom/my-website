@@ -1,0 +1,159 @@
+{
+	"catagories": [
+		{
+			"title": "My Projects",
+			"entries": [
+				{
+					"title": "Scout",
+					"url": "http://www.northeastern.edu/scout/",
+					"position": "Project Lead",
+					"image": "scout.jpg",
+					"timeframe": "November 2015 - Present",
+					"technologies": ["sass", "bootstrap", "angular"],
+					"points": [
+						"Led a web-based design project for Scout, Northeastern’s student-led design studio",
+						"Managed a team of three designers to create various design assets for our client, SmartAble’s, product",
+						"Facilitated and mediated client interactions through various reports, updates, and meetings with established milestones to help guide and show progress"
+					]
+				},
+				{
+					"title": "ListLocal",
+					"url": "http://www.getlistlocal.com/",
+					"position": "Tech Co-Founder",
+					"image": "listlocal.jpg",
+					"timeframe": "September 2014 - April 2015",
+					"technologies": ["parse", "xcode", "swift"],
+					"points": [
+						"Collaborated with two graduate students to form an early-stage startup based out of the Harvard Innovation Lab.",
+						"Designed and developed an iOS application’s architecture, UI, and processes using Swift and a Parse backend."
+					]
+				},
+				{
+					"title": "Mad Munchy Snake",
+					"position": "Owner, Sole Developer",
+					"url": "https://itunes.apple.com/us/app/mad-munchy-snake/id672354626?mt=8",
+					"image": "mms.jpg",
+					"timeframe": "July 2013",
+					"technologies": ["xcode", "objective-c"],
+					"points": [
+						"Created my first iOS app while in high school",
+						"Utilized open-source libraries like Cocos2d to rapidly develop the game",
+						"Connected the app with Google's ad platform in an attempt to monetize it"
+					]
+				}
+			]
+		},
+		{
+			"title": "My Jobs",
+			"entries": [
+				{
+					"title": "PayPal",
+					"url": "http://paypal.com",
+					"position": "iOS Development Co-op",
+					"image": "paypal.png",
+					"timeframe": "July 2016 - Present",
+					"technologies": ["swift", "objective-c", "xcode"],
+					"points": [
+						"Implemented new features and fixed bugs in PayPal’s new merchant iOS app using Swift, Objective-C, and JavaScript with the support of many open-source and proprietary libraries",
+						"Participated in PayPal’s new app launch process by working with other teams to ensure the app met certain benchmarks in areas such as user experience, accessibility, and security"
+					]
+				},
+				{
+					"title": "Kyruus",
+					"url": "http://kyruus.com",
+					"position": "Software Engineering Co-op",
+					"image": "kyruus.png",
+					"timeframe": "July 2015 - June 2016",
+					"technologies": ["python", "flask", "postgres", "sass", "aws", "django", "gulp", "elasticsearch"],
+					"points": [
+						"Implemented and updated various core product features through the development of the UI and the corresponding backend API using various web-based technologies.",
+						"Planned, wrote, and helped execute various data migration scripts on several primary databases with hundreds of thousands of records.",
+						"Deployed applications to development and production environments while gaining experience debugging deployments and modifying the deployer scripts or the human deployment process.",
+						"Learned about start-ups and early-stage companies' growth through witnessing the substantial transformation of Kyruus over my co-op as the company gained funding and added customers."
+					]
+				},
+				{
+					"title": "Genius Switch Studio",
+					"url": "http://geniusswitchstudio.com/",
+					"position": "Development Intern",
+					"image": "geniusswitch.jpg",
+					"timeframe": "May 2014 - December 2014",
+					"technologies": ["drupal", "bootstrap", "sass", "less", "php", "mysql"],
+					"points": [
+						"Collaborated with the development and design teams through meetings, Git, and various technologies to build websites using Drupal, Bootstrap, and several open-source JavaScript, CSS, and PHP libraries.",
+						"Trained clients to use their newly created systems and resolved any discrepancies between their requirements and the product."
+					]
+				}
+			]
+		},
+		{
+			"title": "My Gigs",
+			"entries": [
+				{
+					"title": "TigerPaw Software",
+					"position": "Freelance Developer",
+					"url": "http://community.tigerpawsoftware.com",
+					"image": "tigerpaw.jpg",
+					"timeframe": "October 2014",
+					"technologies": ["php", "less", "mysql"],
+					"points": [
+						"Created the interface for Tigerpaw Software's forum to match their existing website.",
+						"Built a feature request system to allow users to mark feature requests as desirable.",
+						"Altered and added about 30 small features."
+					]
+				},
+				{
+					"title": "Watchily",
+					"position": "Freelance Developer",
+					"url": "http://www.watchily.com",
+					"image": "watchily.jpg",
+					"timeframe": "September 2014",
+					"technologies": ["less", "bootstrap"],
+					"points": [
+						"Designed the interface for Watchily's redesign.",
+						"Utilized Bootstrap to rapidly create a single-page interface with many different components."
+					]
+				},
+				{
+					"title": "HysterSisters",
+					"position": "Freelance Developer",
+					"url": "http://www.hystersisters.com/blog",
+					"image": "hystersisters.jpg",
+					"timeframe": "June 2013",
+					"technologies": ["less", "bootstrap"],
+					"points": [
+						"Created the forum interface from supplied PSDs.",
+						"Created the blog interface based off design elements included in the PSDs.",
+						"Completed various maintenance work on HysterSister's forum."
+					]
+				},
+				{
+					"title": "Inside Lacrosse",
+					"position": "Freelance Developer",
+					"url": "http://forums.insidelacrosse.com/forum.php",
+					"image": "il.jpg",
+					"timeframe": "December 2012",
+					"technologies": ["php", "mysql"],
+					"points": [
+						"Developed a social-media extension for Inside Lacrosse's forum.",
+						"Added various social features like photo and equipment galleries.",
+						"Worked with a small team to ensure that the production launch went smoothly."
+					]
+				},
+				{
+					"title": "MVP Graphics Supply",
+					"position": "Freelance Developer",
+					"url": "http://mvpgraphicssupply.com",
+					"image": "mvp.jpg",
+					"timeframe": "January 2008",
+					"technologies": ["php", "mysql"],
+					"points": [
+						"First complete website done for a client (launched in 2008).",
+						"Design the interface, logo, and various branding materials.",
+						"Developed an entire e-commerce content system based on open-source PHP frameworks."
+					]
+				}
+			]
+		}
+	]
+}

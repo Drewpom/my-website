@@ -1,0 +1,84 @@
+
+@import '../variables.scss';
+
+.about {
+
+	h2 {
+		margin-top: $padding-desktop;
+	}
+
+	.story {
+		line-height: 2.5rem;
+	}
+
+}
+
+.work {
+	margin: $padding-desktop 0 0 0;
+	padding: $padding-desktop 0 0 0;
+	border-top: $border-style;
+
+	h2 {
+		margin-top: 0;
+		text-align: center;
+		color: $right-most;
+	}
+
+}
+
+.experience {
+	ul {
+		list-style: none;
+		padding: 0 5px;
+
+		li {
+			font-size: 1.6rem;
+			@media (min-width: $screen-md-min) {
+				font-size: 2rem;
+			}
+
+			&:before {
+				display: inline-block;
+				content: '»';
+				font-size: 1.2em;
+				margin: 0 5px 0 -5px;
+			}
+
+			&.highlighted {
+				color: darken($left, 30%);
+			}
+		}
+	}
+}
+
+
+.technologies-imgs {
+	text-align: center;
+	$sm-max-width: 80px;
+	$sm-max-height: 30px;
+
+	$lg-max-width: 100px;
+	$lg-max-height: 40px;
+	&:hover {
+		img {
+			opacity: 0.3;
+		}
+	}
+
+	img {
+		@include css-animate(opacity, 0.3s);
+		margin: 3px;
+		opacity: 0.8;
+		max-width: $sm-max-width;
+		max-height: $sm-max-height;
+		@media (min-width: $screen-md-min) {
+			max-width: $lg-max-width;
+			max-height: $lg-max-height;
+		}
+		vertical-align: middle;
+		&:hover {
+			opacity: 1;
+		}
+
+	}
+}

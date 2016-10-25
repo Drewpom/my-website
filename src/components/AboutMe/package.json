@@ -1,0 +1,6 @@
+{
+  "name": "AboutMe",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./AboutMe.js"
+}

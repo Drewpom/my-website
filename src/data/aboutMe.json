@@ -1,0 +1,129 @@
+{
+  "background": [
+    "I have over 10 years experience designing and developing websites. I taught myself basic coding skills at around age 10 and began to capitalize on the internet freelancing market at age 13. At this time, I began to complete small to medium-sized projects for small businesses and individuals. Throughout middle and high school, I learned more complex languages like PHP, Objective-C, and Java, and began to create native applications.",
+    "I am currently a fourth-year student at Northeastern University studying Computer Science and Finance. I have strong interests in technology, programming, entrepreneurship, and the intersection between them.",
+    "I enjoy coffee, running, and <em>Its Always Sunny in Philadelphia</em>."
+  ],
+  "experience": [
+    "10+ Years of Freelancing Web Development",
+    "3.61 GPA From Northeastern University",
+    "Completed Over 50 Freelance Projects"
+  ],
+	"technologies": [
+		{
+      "name": "parse",
+      "imageName": "parse.jpg",
+      "moreInfoUrl": "http://parse.com/"
+    },
+		{
+      "name": "java",
+      "imageName": "java.jpg",
+      "moreInfoUrl": "http://www.java.com/en/"
+    },
+		{
+      "name": "postgres",
+      "imageName": "postgres.jpg",
+      "moreInfoUrl": "http://www.postgresql.org/"
+    },
+		{
+      "name": "sass",
+      "imageName": "sass.jpg",
+      "moreInfoUrl": "http://sass-lang.com/"
+    },
+		{
+      "name": "less",
+      "imageName": "less.jpg",
+      "moreInfoUrl": "http://lesscss.org/"
+    },
+		{
+      "name": "drupal",
+      "imageName": "drupal.jpg",
+      "moreInfoUrl": "https://www.drupal.org/"
+    },
+		{
+      "name": "vagrant",
+      "imageName": "vagrant.jpg",
+      "moreInfoUrl": "https://www.vagrantup.com/"
+    },
+		{
+      "name": "xcode",
+      "imageName": "xcode.jpg",
+      "moreInfoUrl": "https://developer.apple.com/xcode/"
+    },
+		{
+      "name": "bootstrap",
+      "imageName": "bootstrap.jpg",
+      "moreInfoUrl": "http://getbootstrap.com/"
+    },
+		{
+      "name": "aws",
+      "imageName": "aws.jpg",
+      "moreInfoUrl": "https://aws.amazon.com/"
+    },
+		{
+      "name": "nodejs",
+      "imageName": "nodejs.jpg",
+      "moreInfoUrl": "https://nodejs.org/"
+    },
+		{
+      "name": "django",
+      "imageName": "django.jpg",
+      "moreInfoUrl": "https://www.djangoproject.com/"
+    },
+		{
+      "name": "gulp",
+      "imageName": "gulp.jpg",
+      "moreInfoUrl": "http://gulpjs.com"
+    },
+		{
+      "name": "flask",
+      "imageName": "flask.jpg",
+      "moreInfoUrl": "http://flask.pocoo.org"
+    },
+		{
+      "name": "elasticsearch",
+      "imageName": "elasticsearch.jpg",
+      "moreInfoUrl": "https://www.elastic.co/"
+    },
+		{
+      "name": "mysql",
+      "imageName": "mysql.jpg",
+      "moreInfoUrl": "https://www.mysql.com/"
+    },
+		{
+      "name": "python",
+      "imageName": "python.jpg",
+      "moreInfoUrl": "https://www.python.org/"
+    },
+    {
+      "name": "php",
+      "imageName": "php.jpg",
+      "moreInfoUrl": "https://www.php.net/"
+    },
+		{
+      "name": "swift",
+      "imageName": "swift.jpeg",
+      "moreInfoUrl": "https://developer.apple.com/swift/"
+    },
+		{
+      "name": "objective-c",
+      "imageName": null,
+      "moreInfoUrl": "https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/Introduction/Introduction.html"
+    },
+		{
+      "name": "angular",
+      "imageName": "angular.jpg",
+      "moreInfoUrl": "https://angularjs.org/"
+    },
+		{
+      "name": "backbone",
+      "imageName": "backbone.jpg",
+      "moreInfoUrl": "http://backbonejs.org/"
+    },
+		{
+      "name": "twilio",
+      "imageName": "twilio.jpg",
+      "moreInfoUrl": "http://twilio.com"
+    }
+  ]
+}
