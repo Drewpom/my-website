@@ -124,6 +124,11 @@
       "name": "twilio",
       "imageName": "twilio.jpg",
       "moreInfoUrl": "http://twilio.com"
+    },
+    {
+      "name": "firebase",
+      "imageName": "firebase.png",
+      "moreInfoUrl": "https://firebase.google.com/"
     }
   ]
 }
