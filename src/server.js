@@ -9,6 +9,7 @@ import Layout from './components/Layout';
 import Html from './components/Html';
 import assets from './assets'; // eslint-disable-line import/no-unresolved
 import { port, auth } from './config';
+import MetaData from './data/meta.json'
 
 const app = express();
 
@@ -24,12 +25,11 @@ app.get('*', async (req, res, next) => {
   };
 
   const data = {
-    title: "Pomerleau Design",
-    description: ""
-  };
-  data.children = ReactDOM.renderToString(<Layout context={context}></Layout>);
-  data.style = [...css].join('');
-  data.script = assets.main.js;
+    meta: MetaData,
+    children: ReactDOM.renderToString(<Layout context={context}></Layout>),
+    style: [...css].join(''),
+    script: assets.main.js
+  }
   const html = ReactDOM.renderToStaticMarkup(<Html {...data} />);
 
   res.status(200);

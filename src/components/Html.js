@@ -2,14 +2,14 @@
 import React, { PropTypes } from 'react';
 import { analytics } from '../config';
 
-function Html({ title, description, style, script, children }) {
+function Html({ meta, style, script, children }) {
   return (
     <html className="no-js" lang="en">
       <head>
         <meta charSet="utf-8" />
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
-        <title>{title}</title>
-        <meta name="description" content={description} />
+        <title>{meta.title}</title>
+        <meta name="description" content={meta.description} />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         {style && <style id="css" dangerouslySetInnerHTML={{ __html: style }} />}
       </head>
@@ -32,8 +32,10 @@ function Html({ title, description, style, script, children }) {
 }
 
 Html.propTypes = {
-  title: PropTypes.string.isRequired,
-  description: PropTypes.string.isRequired,
+  meta:  PropTypes.shape({
+    title: PropTypes.string.isRequired,
+    description: PropTypes.string.isRequired
+  }),
   style: PropTypes.string,
   script: PropTypes.string,
   children: PropTypes.string,

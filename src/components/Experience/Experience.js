@@ -40,8 +40,39 @@ class ExperienceCategory extends React.Component {
 
   constructor(props) {
     super(props)
+    this.renderEntries = this.renderEntries.bind(this)
+  }
+
+  renderEntries() {
+    const entryClassName = this.props.entryClassName || ""
+    return this.props.entries.map((entry) =>
+      <div key={entry.url} className={entryClassName}>{ExperienceEntry(entry)}</div>
+    )
+  }
+
+  render() {
+    const sectionClassName = "work-section " + (this.props.sectionClassName || "")
+    return (
+      <div className={sectionClassName}>
+        <h2 className="heading">
+          { this.props.title }
+        </h2>
+        {this.renderEntries()}
+        {this.props.additionalMarkup}
+      </div>
+    )
+  }
+}
+
+ExperienceCategory.defaultProps = {
+  additionalMarkup: null
+}
+
+class ExperienceCategoryExandable extends ExperienceCategory {
+
+  constructor(props) {
+    super(props)
     this.toggleExpand = this.toggleExpand.bind(this)
-    this.getEntries = this.getEntries.bind(this)
     this.state = {
       expanded: this.props.category.entries.length <= shownEntryCount
     }
@@ -53,7 +84,7 @@ class ExperienceCategory extends React.Component {
     })
   }
 
-  getEntries() {
+  render() {
     const entries = this.props.category.entries
     var displayedEntries
     var expandable = false
@@ -64,36 +95,32 @@ class ExperienceCategory extends React.Component {
       expandable = true
     }
 
-    return (
-      <div className="entries">
-        {displayedEntries.map((entry) =>
-          <div key={entry.url}>{ExperienceEntry(entry)}</div>
-        )}
-        {expandable ? <p><button className="btn more-entries-btn" onClick={this.toggleExpand}>See {!this.state.expanded ? 'More' : 'Less'}</button></p> : null}
-      </div>
-    )
-  }
+    let additionalMarkup = null
+    if (expandable) {
+        additionalMarkup = (
+          <p><button className="btn more-entries-btn" onClick={this.toggleExpand}>See {!this.state.expanded ? 'More' : 'Less'}</button></p>
+        )
+    }
 
-  render() {
     return (
-    <div  className="work-section col-sm-4">
-      <div>
-        <h2 className="heading">
-          { this.props.category.title }
-          <button className="visible-xs-inline-block btn" type="button"></button>
-        </h2>
-        {this.getEntries()}
-      </div>
-    </div>
+      <ExperienceCategory sectionClassName="col-sm-4" title={this.props.category.title} entries={displayedEntries} additionalMarkup={additionalMarkup} />
     )
   }
 }
 
 function Experience() {
+
   return (
-    <div className="work">
-      <div className="row">
-      {ExperienceData.catagories.map((category, index) => <ExperienceCategory key={index} category={category} />)}
+    <div>
+      <div className="work">
+        <div className="row">
+        {ExperienceData.catagories.map((category, index) => <ExperienceCategoryExandable key={index} category={category} />)}
+        </div>
+      </div>
+      <div className="work">
+        <div className="row">
+          <ExperienceCategory {...ExperienceData.freelancing} entryClassName="col-sm-4" />
+        </div>
       </div>
     </div>
   );

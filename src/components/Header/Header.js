@@ -7,11 +7,14 @@ import HeaderData from '../../data/header.json'
 class Taglines extends React.Component {
 
   componentDidMount() {
-    $("#typed").typed({
-      backDelay: 1100,
-      strings: HeaderData.taglines,
-      loop: true
-    })
+    const width = $(window).width()
+    if (width > 767) {
+      $("#typed").typed({
+        backDelay: 1100,
+        strings: HeaderData.taglines,
+        loop: true
+      })
+    }
   }
 
   render() {

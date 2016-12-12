@@ -6,10 +6,15 @@
   ],
   "experience": [
     "10+ Years of Freelancing Web Development",
-    "3.61 GPA From Northeastern University",
-    "Completed Over 50 Freelance Projects"
+    "3.65 GPA From Northeastern University",
+    "Completed Over 30 Freelance Projects"
   ],
 	"technologies": [
+    {
+      "name": "javascript",
+      "imageName": "javascript.png",
+      "moreInfoUrl": "https://www.javascript.com/"
+    },
 		{
       "name": "parse",
       "imageName": "parse.jpg",

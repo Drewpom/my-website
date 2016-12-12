@@ -1,8 +1,20 @@
 {
 	"catagories": [
 		{
-			"title": "My Projects",
+			"title": "My Involvement",
 			"entries": [
+				{
+				  "title": "IDEA",
+				  "url": "http://www.northeastern.edu/idea/",
+				  "position": "Tech Operations",
+				  "image": "idea.png",
+				  "timeframe": "August 2016 - Present",
+				  "technologies": ["javascript"],
+				  "points": [
+						"Collaborated across the IDEA team to update various features of their websiste",
+						"Created and open-sourced a Slack bot to increase engagement in weekly reports"
+					]
+				},
 				{
 					"title": "Scout",
 					"url": "http://www.northeastern.edu/scout/",
@@ -14,31 +26,6 @@
 						"Led a web-based design project for Scout, Northeastern’s student-led design studio",
 						"Managed a team of three designers to create various design assets for our client, SmartAble’s, product",
 						"Facilitated and mediated client interactions through various reports, updates, and meetings with established milestones to help guide and show progress"
-					]
-				},
-				{
-					"title": "ListLocal",
-					"url": "http://www.getlistlocal.com/",
-					"position": "Tech Co-Founder",
-					"image": "listlocal.jpg",
-					"timeframe": "September 2014 - April 2015",
-					"technologies": ["parse", "xcode", "swift"],
-					"points": [
-						"Collaborated with two graduate students to form an early-stage startup based out of the Harvard Innovation Lab.",
-						"Designed and developed an iOS application’s architecture, UI, and processes using Swift and a Parse backend."
-					]
-				},
-				{
-					"title": "Mad Munchy Snake",
-					"position": "Owner, Sole Developer",
-					"url": "https://itunes.apple.com/us/app/mad-munchy-snake/id672354626?mt=8",
-					"image": "mms.jpg",
-					"timeframe": "July 2013",
-					"technologies": ["xcode", "objective-c"],
-					"points": [
-						"Created my first iOS app while in high school",
-						"Utilized open-source libraries like Cocos2d to rapidly develop the game",
-						"Connected the app with Google's ad platform in an attempt to monetize it"
 					]
 				}
 			]
@@ -87,73 +74,103 @@
 			]
 		},
 		{
-			"title": "My Gigs",
+			"title": "My Projects",
 			"entries": [
 				{
-					"title": "TigerPaw Software",
-					"position": "Freelance Developer",
-					"url": "http://community.tigerpawsoftware.com",
-					"image": "tigerpaw.jpg",
-					"timeframe": "October 2014",
-					"technologies": ["php", "less", "mysql"],
+					"title": "ListLocal",
+					"url": "http://www.getlistlocal.com/",
+					"position": "Tech Co-Founder",
+					"image": "listlocal.jpg",
+					"timeframe": "September 2014 - April 2015",
+					"technologies": ["parse", "xcode", "swift"],
 					"points": [
-						"Created the interface for Tigerpaw Software's forum to match their existing website.",
-						"Built a feature request system to allow users to mark feature requests as desirable.",
-						"Altered and added about 30 small features."
+						"Collaborated with two graduate students to form an early-stage startup based out of the Harvard Innovation Lab.",
+						"Designed and developed an iOS application’s architecture, UI, and processes using Swift and a Parse backend."
 					]
 				},
 				{
-					"title": "Watchily",
-					"position": "Freelance Developer",
-					"url": "http://www.watchily.com",
-					"image": "watchily.jpg",
-					"timeframe": "September 2014",
-					"technologies": ["less", "bootstrap"],
+					"title": "Mad Munchy Snake",
+					"position": "Owner, Sole Developer",
+					"url": "https://itunes.apple.com/us/app/mad-munchy-snake/id672354626?mt=8",
+					"image": "mms.jpg",
+					"timeframe": "July 2013",
+					"technologies": ["xcode", "objective-c"],
 					"points": [
-						"Designed the interface for Watchily's redesign.",
-						"Utilized Bootstrap to rapidly create a single-page interface with many different components."
-					]
-				},
-				{
-					"title": "HysterSisters",
-					"position": "Freelance Developer",
-					"url": "http://www.hystersisters.com/blog",
-					"image": "hystersisters.jpg",
-					"timeframe": "June 2013",
-					"technologies": ["less", "bootstrap"],
-					"points": [
-						"Created the forum interface from supplied PSDs.",
-						"Created the blog interface based off design elements included in the PSDs.",
-						"Completed various maintenance work on HysterSister's forum."
-					]
-				},
-				{
-					"title": "Inside Lacrosse",
-					"position": "Freelance Developer",
-					"url": "http://forums.insidelacrosse.com/forum.php",
-					"image": "il.jpg",
-					"timeframe": "December 2012",
-					"technologies": ["php", "mysql"],
-					"points": [
-						"Developed a social-media extension for Inside Lacrosse's forum.",
-						"Added various social features like photo and equipment galleries.",
-						"Worked with a small team to ensure that the production launch went smoothly."
-					]
-				},
-				{
-					"title": "MVP Graphics Supply",
-					"position": "Freelance Developer",
-					"url": "http://mvpgraphicssupply.com",
-					"image": "mvp.jpg",
-					"timeframe": "January 2008",
-					"technologies": ["php", "mysql"],
-					"points": [
-						"First complete website done for a client (launched in 2008).",
-						"Design the interface, logo, and various branding materials.",
-						"Developed an entire e-commerce content system based on open-source PHP frameworks."
+						"Created my first iOS app while in high school",
+						"Utilized open-source libraries like Cocos2d to rapidly develop the game",
+						"Connected the app with Google's ad platform in an attempt to monetize it"
 					]
 				}
 			]
 		}
-	]
+	],
+	"freelancing": {
+			"title": "My Freelancing Work",
+			"entries": [
+			{
+				"title": "TigerPaw Software",
+				"position": "Freelance Developer",
+				"url": "http://community.tigerpawsoftware.com",
+				"image": "tigerpaw.jpg",
+				"timeframe": "October 2014",
+				"technologies": ["php", "less", "mysql"],
+				"points": [
+					"Created the interface for Tigerpaw Software's forum to match their existing website.",
+					"Built a feature request system to allow users to mark feature requests as desirable.",
+					"Altered and added about 30 small features."
+				]
+			},
+			{
+				"title": "Watchily",
+				"position": "Freelance Developer",
+				"url": "http://www.watchily.com",
+				"image": "watchily.jpg",
+				"timeframe": "September 2014",
+				"technologies": ["less", "bootstrap"],
+				"points": [
+					"Designed the interface for Watchily's redesign.",
+					"Utilized Bootstrap to rapidly create a single-page interface with many different components."
+				]
+			},
+			{
+				"title": "HysterSisters",
+				"position": "Freelance Developer",
+				"url": "http://www.hystersisters.com/blog",
+				"image": "hystersisters.jpg",
+				"timeframe": "June 2013",
+				"technologies": ["less", "bootstrap"],
+				"points": [
+					"Created the forum interface from supplied PSDs.",
+					"Created the blog interface based off design elements included in the PSDs.",
+					"Completed various maintenance work on HysterSister's forum."
+				]
+			},
+			{
+				"title": "Inside Lacrosse",
+				"position": "Freelance Developer",
+				"url": "http://forums.insidelacrosse.com/forum.php",
+				"image": "il.jpg",
+				"timeframe": "December 2012",
+				"technologies": ["php", "mysql"],
+				"points": [
+					"Developed a social-media extension for Inside Lacrosse's forum.",
+					"Added various social features like photo and equipment galleries.",
+					"Worked with a small team to ensure that the production launch went smoothly."
+				]
+			},
+			{
+				"title": "MVP Graphics Supply",
+				"position": "Freelance Developer",
+				"url": "http://mvpgraphicssupply.com",
+				"image": "mvp.jpg",
+				"timeframe": "January 2008",
+				"technologies": ["php", "mysql"],
+				"points": [
+					"First complete website done for a client (launched in 2008).",
+					"Design the interface, logo, and various branding materials.",
+					"Developed an entire e-commerce content system based on open-source PHP frameworks."
+				]
+			}
+		]
+	}
 }
