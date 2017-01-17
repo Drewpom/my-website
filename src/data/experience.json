@@ -4,6 +4,18 @@
 			"title": "My Involvement",
 			"entries": [
 				{
+					"title": "Northeastern University",
+					"url": "http://www.northeastern.edu/idea/",
+					"position": "Fellow",
+					"image": "ccis.jpg",
+					"timeframe": "January 2017 - Present",
+					"technologies": [],
+					"points": [
+						"Collaborated across the IDEA team to update various features of their websiste",
+						"Created and open-sourced a Slack bot to increase engagement in weekly reports"
+					]
+				},
+				{
 				  "title": "IDEA",
 				  "url": "http://www.northeastern.edu/idea/",
 				  "position": "Tech Operations",
