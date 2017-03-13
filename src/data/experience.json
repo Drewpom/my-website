@@ -5,7 +5,7 @@
 			"entries": [
 				{
 					"title": "Northeastern University",
-					"url": "http://www.northeastern.edu/idea/",
+					"url": "http://www.ccis.northeastern.edu/",
 					"position": "Fellow",
 					"image": "ccis.jpg",
 					"timeframe": "January 2017 - Present",
@@ -33,7 +33,7 @@
 					"position": "Project Lead",
 					"image": "scout.jpg",
 					"timeframe": "November 2015 - Present",
-					"technologies": ["sass", "bootstrap", "angular"],
+					"technologies": ["react", "sass", "bootstrap", "angular"],
 					"points": [
 						"Led a web-based design project for Scout, Northeastern’s student-led design studio",
 						"Managed a team of three designers to create various design assets for our client, SmartAble’s, product",

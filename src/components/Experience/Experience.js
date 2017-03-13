@@ -5,9 +5,9 @@ import s from './Experience.scss';
 import ExperienceData from '../../data/experience.json'
 
 
-function ExperienceEntry({ title, image, url, timeframe, position, technologies, points }) {
+function ExperienceEntry({ title, image, url, timeframe, position, technologies, points, className }) {
   return (
-    <article className="entry">
+    <article className={"entry " + className}>
   	    <div className="thumbnail">
   	    	<div className="vertical-center">
   				<a target="_blank" href={url}><img className="entry-img" src={"/img/projects/" + image} /></a>
@@ -34,7 +34,7 @@ function ExperienceEntry({ title, image, url, timeframe, position, technologies,
   )
 }
 
-let shownEntryCount = 3
+const shownEntryCount = 3
 
 class ExperienceCategory extends React.Component {
 
@@ -46,7 +46,7 @@ class ExperienceCategory extends React.Component {
   renderEntries() {
     const entryClassName = this.props.entryClassName || ""
     return this.props.entries.map((entry) =>
-      <div key={entry.url} className={entryClassName}>{ExperienceEntry(entry)}</div>
+      <ExperienceEntry {...entry} key={entry.url} className={entryClassName} />
     )
   }
 
